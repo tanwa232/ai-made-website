@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## About AI Made Website
 
-## Getting Started
+_AIMadeWebsite_ - a project for test ChatGPT to make a NextJS and TailwindCSS web application
 
-First, run the development server:
+In this project, I try to use [ChatGPT](https://chat.openai.com/chat) to make a component for my web application by giving it a description and command to generate react code with TailwindCSS classname.
 
-```bash
-npm run dev
-# or
-yarn dev
+## Youtube
+
+For more information can be seen in my [video]() on YouTube.
+
+[![new_thumb](./fig/cover.png)]("")
+
+## Link
+
+You can visit this website [here]()
+
+## Requirements
+
+- NodeJS
+
+## Install
+
+```
+git clone https://github.com/TitorPs360/ai-made-website
+cd ai-made-website
+npm i
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Usage
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+1. First, run the development server:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+   ```
+   npm run dev
+   # or
+   yarn dev
+   ```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+2. Open http://localhost:3000 with your browser to see the result.

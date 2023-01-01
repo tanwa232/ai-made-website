@@ -9,17 +9,16 @@ type Data = {
 };
 
 const handler = async (req: NextApiRequest, res: NextApiResponse<Data>) => {
-  const options = {
+  // const browser = await puppeteer.launch();
+
+  const browser = await chrome.puppeteer.launch({
     args: [...chrome.args, '--hide-scrollbars', '--disable-web-security'],
     defaultViewport: chrome.defaultViewport,
     executablePath: await chrome.executablePath,
     headless: true,
     ignoreHTTPSErrors: true,
-  };
+  });
 
-  const browser = await puppeteer.launch(options);
-
-  // const browser = await puppeteer.launch();
   const page = await browser.newPage();
   await page.goto('https://www.youtube.com/@TitorPs360/about');
 

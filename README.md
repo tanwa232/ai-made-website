@@ -12,7 +12,7 @@ For more information can be seen in my [video](https://youtu.be/FbypKiDf7VE) on 
 
 ## Link
 
-You can visit this website [here](https://ai-made-website-qbmd25cun-titorps360.vercel.app/)
+You can visit this website [here](https://ai-made-website.vercel.app/)
 
 _Number of Subscribers and Views is not work in vercel_
 

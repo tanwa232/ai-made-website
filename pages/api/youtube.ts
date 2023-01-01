@@ -1,5 +1,5 @@
-import puppeteer from 'puppeteer';
-import chrome from 'chrome-aws-lambda';
+import puppeteer from 'puppeteer'; // << Normal
+import chrome from 'chrome-aws-lambda'; // << For vercel
 
 import type { NextApiRequest, NextApiResponse } from 'next';
 
@@ -9,7 +9,7 @@ type Data = {
 };
 
 const handler = async (req: NextApiRequest, res: NextApiResponse<Data>) => {
-  // const browser = await puppeteer.launch();
+  // const browser = await puppeteer.launch(); // << Normal
 
   const browser = await chrome.puppeteer.launch({
     args: [...chrome.args, '--hide-scrollbars', '--disable-web-security'],
@@ -17,7 +17,7 @@ const handler = async (req: NextApiRequest, res: NextApiResponse<Data>) => {
     executablePath: await chrome.executablePath,
     headless: true,
     ignoreHTTPSErrors: true,
-  });
+  }); // << For vercel
 
   const page = await browser.newPage();
   await page.goto('https://www.youtube.com/@TitorPs360/about');

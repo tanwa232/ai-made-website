@@ -6,13 +6,15 @@ In this project, I try to use [ChatGPT](https://chat.openai.com/chat) to make a 
 
 ## Youtube
 
-For more information can be seen in my [video]() on YouTube.
+For more information can be seen in my [video](https://youtu.be/FbypKiDf7VE) on YouTube.
 
-[![new_thumb](./fig/cover.png)]("")
+[![new_thumb](./fig/cover.png)]("https://youtu.be/FbypKiDf7VE")
 
 ## Link
 
-You can visit this website [here]()
+You can visit this website [here](https://ai-made-website-qbmd25cun-titorps360.vercel.app/)
+
+_Number of Subscribers and Views is not work in vercel_
 
 ## Requirements
 

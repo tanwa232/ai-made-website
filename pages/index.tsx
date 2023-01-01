@@ -4,6 +4,7 @@ import WorldMap from '../components/WorldMap';
 import SeaWaveAnimation from '../components/SeaWaveAnimation';
 import RotatingCube from '../components/RotatingCube';
 import BitcoinChart from '../components/BitcoinChart';
+import YoutubePanel from '../components/YoutubePanel';
 
 export default function Home() {
   return (
@@ -22,6 +23,8 @@ export default function Home() {
         <RotatingCube />
 
         <BitcoinChart />
+
+        <YoutubePanel />
       </div>
     </>
   );

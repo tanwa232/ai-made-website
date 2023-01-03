@@ -8,7 +8,7 @@ In this project, I try to use [ChatGPT](https://chat.openai.com/chat) to make a 
 
 For more information can be seen in my [video](https://youtu.be/FbypKiDf7VE) on YouTube.
 
-[![new_thumb](./fig/cover.png)]("https://youtu.be/FbypKiDf7VE")
+[![new_thumb](./fig/cover.png)](https://youtu.be/FbypKiDf7VE)
 
 ## Link
 

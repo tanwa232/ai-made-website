@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Netflix</title>
+  <!-- นำเข้าไฟล์ CSS ของ Netflix -->
+  <link rel="stylesheet" href="netflix.css">
+</head>
+<body>
+  <header>
+    Netflix
+
+
+    <img src="netflix-logo.png" alt="Netflix Logo">
+    <!-- เมนูนำทาง -->
+    <nav>
+      <ul>
+        <li><a href="#">หน้าแรก</a></li>
+        <li><a href="#">ซีรีส์</a></li>
+        <li><a href="#">หนัง</a></li>
+        <li><a href="#">รายการที่ชอบ</a></li>
+        <li><a href="#">บัญชีของฉัน</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <!-- สไลด์เดอร์รายการซีรีส์และหนัง -->
+    <section id="slider">
+      <h2>ซีรีส์และหนังยอดนิยม</h2>
+      <!-- เนื้อหาสไลด์เดอร์ -->
+      <div class="slider-content">
+        <!-- รายการเนื้อหาสไลด์เดอร์ 1 -->
+        <div class="slide">
+          <img src="netflix-logo.webp" alt="Slide 1">
+          <div class="slide-caption">
+            <h3>เกมของโถมเถื่อน</h3>
+            <p>ซีรีส์แนวดราม่าแฟนตาซี ที่มีเรื่องราวน่าติดตาม</p>
+          </div>
+        </div>
+        <!-- รายการเนื้อหาสไลด์เดอร์ 2 -->
+        <div class="slide">
+          <img src="slide2.jgp" alt="Slide 2">
+          <div class="slide-caption">
+            <h3>คนเล็กๆ ที่ใหญ่โตขึ้น</h3>
+            <p>หนังแนวตลกผจญภัย ที่ให้กำลังใจแก่เด็กๆ</p>
+          </div>
+        </div>
+        <!-- รายการเนื้อหาสไลด์เดอร์ 3 -->
+        <div class="slide">
+          <img src="slide3.jpg" alt="Slide 3">
+          <div class="slide-caption">
+            <h3>จิ๋วก้องโต</h3>
+            <p>ซีรีส์แนวระทึกข
+              <!DOCTYPE html>
+<html>
+<head>
+  <title>Netflix - เข้าสู่ระบบ</title>
+  <!-- นำเข้าไฟล์ CSS ของ Netflix -->
+  <link rel="stylesheet" href="netflix.css">
+</head>
+<body>
+  <div class="login-container">
+    <h1>เข้าสู่ระบบ Netflix</h1>
+    <form>
+      <input type="email" placeholder="อีเมล" required>
+      <input type="password" placeholder="รหัสผ่าน" required>
+      <button type="submit">เข้าสู่ระบบ</button>
+    </form>
+    <div class="signup-link">
+      <p>ยังไม่มีบัญชี Netflix ใช่ไหม? <a href="#">สมัครสมาชิกที่นี่</a></p>
+    </div>
+  </div>
+</body>
+</html>
+/* กำหนดสไตล์ให้กับทั้งหน้าเว็บ */
+body {
+  background-color: #000;
+  font-family: Arial, sans-serif;
+}
+
+/* กล่องเข้าสู่ระบบ */
+.login-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 4px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+/* สไตล์เข้าสู่ระบบ */
+h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  font-size: 16px;
+}
+
+form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #e50914;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+}
+
+/* ลิงก์สมัครสมาชิก */
+.signup-link {
+  margin-top: 20px;
+}
+
+.signup-link a {
+  color: #e50914;
+}
+body {
+  background-color:
+   #000;
+}
+
